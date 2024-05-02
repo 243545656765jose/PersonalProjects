@@ -7,6 +7,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/app/shared/header.php';
     <div class="card">
       <div class="card-header">
         <h3 class="mb-0">Registrarse User</h3>
+        <a href="index.php">Atras</a>
       </div>
       <div class="card-body">
         <form>

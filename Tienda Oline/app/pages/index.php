@@ -4,7 +4,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/app/shared/header.php';
    <div class="container-sm ">
   <ul class="nav ">
     <li class="nav-item">
-      <a class="nav-link active" href="#">Login</a>
+      <a class="nav-link active" href="login.php">Login</a>
     </li>
     <li class="nav-item">
       <a class="nav-link " href="my_suplementos.php">Perfil</a>

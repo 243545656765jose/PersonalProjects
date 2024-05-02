@@ -19,7 +19,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/app/shared/header.php';
               <label for="password">Contraseña</label>
               <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
             </div>
-            <a href="http://">Registrase</a>
+            <a href="registrer.php">Registrase</a>
             <br>
             <button type="submit" class="btn btn-primary btn-block float-right">Iniciar sesión</button>
           </form>
