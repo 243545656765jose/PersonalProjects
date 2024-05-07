@@ -1,31 +1,75 @@
 .logo{
-    border-radius: 10%;
-    width:60px ;
-    margin: 10px;
-    margin-right: 15px;
+  border-radius: 50%;
+  width: 60px;
 }
 .pais_img{
-    margin: 30px;
-    border-radius: 5%;
-    height: 200px;
-    width: 200px;
+  margin: 30px;
+  border-radius: 5%;
+  height: 200px;
+  width: 200px;
+  transition: transform 0.3s ease-in-out;
 }
-.nav_cust{
-    background-color: rgb(7, 49, 107);
-   
+
+.navbar {
+background-color: rgba(0, 0, 0, 0.7);
 }
-#imagen-derecha {
-    position: fixed;
-    top: 20px; /* Ajusta la distancia desde la parte superior */
-    right: 20px; /* Ajusta la distancia desde la derecha */
-    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+
+.navbar-brand {
+color: white !important;
 }
-  #imagen-derecha img {
-    width: 70px; 
-    height: auto; 
-  }
-  
+
+.nav-link {
+color: white !important;
+}
+
+.nav-link:hover {
+color: lightgray !important;
+}
+
+.navbar-toggler {
+border-color: white !important;
+}
+
+.navbar-toggler-icon {
+background-color: white;
+}
+
+
+
 .center-section {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  justify-content: center;
+}
+.colord{
+  background-color: rgb(7, 49, 107);
+  align-items: center;
+  color: aliceblue;
+}
+.colorW{
+color: aliceblue;
+}
+@media only screen and (max-width: 769px) {
+.diccom{
+  width: 110px;
+}
+.d{
+  margin: auto;
+}
+}
+ul{
+color: rgb(249, 249, 249);
+}
+.pre{
+background-color:  rgb(7, 49, 107);
+border-radius: 5%;
+border: 20px;
+margin: 5px;
+}
+.white{
+color: white;
+}
+
+.pais_img:hover {
+transform: scale(1.9);
+}
+
